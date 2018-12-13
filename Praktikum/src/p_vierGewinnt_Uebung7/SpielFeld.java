@@ -7,6 +7,7 @@ import edu.princeton.cs.introcs.StdOut;
 public class SpielFeld {
 	
 	//nicht veränderbare öffentliche Variablen vom Typ INT
+	//neuer kommentar
 	public static final int anZeilen=6;
 	public static final int anSpalten=7;
 	public static final int spielFeldGroeße=80;
