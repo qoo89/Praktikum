@@ -6,10 +6,11 @@ import edu.princeton.cs.introcs.StdOut;
 
 public class ArrayUmdrehen {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) //Aufgabe 4a und 4b
+	{
 		// TODO Auto-generated method stub
 		int[] array;
-		int groeﬂe=5;
+		int groeﬂe=1; //um einen Wert mitzugeben
 		
 		array = methoden.frageArray("Wie viele Zahlen sollen eingegeben werden? ", groeﬂe);
 		StdOut.print("1.Array:  ");

@@ -7,7 +7,7 @@ import edu.princeton.cs.introcs.StdOut;
 
 public class methoden
 {
-	public static int frageInt(String frage, int min, int max)
+	public static int frageInt(String frage, int min, int max) //Aufgabe 2b
 	{
 		StdOut.print(frage);
 		int x =0;
@@ -29,7 +29,7 @@ public class methoden
 	}
 	
 	//Aufgabe 3a
-		public static int maximum2int(int a, int b)
+		public static int maximum2int(int a, int b) // schaut welche Zahl größer ist und gibt diese zurück
 		{
 			 if (a > b)
 		        {
@@ -42,7 +42,7 @@ public class methoden
 		}
 		
 	//Aufgabe 3b
-		public static int maxArray(int[] array)
+		public static int maxArray(int[] array) //gibt die größte Zahl zurück
 		{
 			int vergleich = 0;
 			
@@ -54,7 +54,7 @@ public class methoden
 			return vergleich;
 		}
 	
-		public static int [] arrayTausch (int[] array)
+		public static int [] arrayTausch (int[] array) //gibt Zahlen aus einem Array in umgekehrter Reihenfolge aus
 		{	
 			int [] array2;
 			array2 = new int [array.length];
@@ -68,7 +68,7 @@ public class methoden
 			return array2;
 		}
 		
-		public static int [] frageArray(String frage, int gr)
+		public static int [] frageArray(String frage, int gr) //ließt Anzahl an Zahlen in das Array ein 
 		{
 			StdOut.print(frage);
 			int []array;
