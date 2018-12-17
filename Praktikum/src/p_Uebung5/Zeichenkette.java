@@ -9,6 +9,7 @@ public class Zeichenkette {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		//Aufgabe 1a
 		StdOut.print("Welches Zeichen moechten Sie ausgeben? ");
 		char zeichen = StdIn.readChar();

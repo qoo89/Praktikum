@@ -26,9 +26,9 @@ public class MaxZahlenUndArrays {
 				StdOut.print(methoden.maxArray(array));
 */
 				
-				
+/*			
 		//Aufgabe 3c
-/*
+
 				int[] array;
 				int gr=5;
 				
