@@ -15,14 +15,14 @@ public class BuchVerwaltung {
 	StdOut.print("Wie viele Buecher moechten Sie einlesen? ");
 	int anzahl = StdIn.readInt();
 	
-	Buch[] buchliste = new Buch[anzahl];
+	Buch[] buchliste = new Buch[anzahl]; 		//erstellt ein Array mit der Größe der eingegebenen Zahl
 	
 	
 	for(int i=0; i<buchliste.length;i++)
 	{
-		StdOut.println("Buch(irgendeine Zahl) und EBook(-1)");
+		StdOut.println("Buch(irgendeine Zahl) und EBook(-1)");	
 		int eingabe = StdIn.readInt();
-		if (eingabe == -1)
+		if (eingabe == -1)						//prüft ob ein EBook(-1) eingelesen werden soll oder ein Buch(beliebige Zahl)
 		{
 			buchliste[i] = EBook.erfasseEbook();
 		}else
@@ -31,30 +31,30 @@ public class BuchVerwaltung {
 		}
 	
 	}	
-/*	
+	
 	//Ausgabe aller Buecher
 	for(int i=0; i<buchliste.length;i++)
 	{
 		StdOut.println(buchliste[i]);
 	}
-*/	
+
 	//Berechnung und Ausgabe Buecher
 	StdOut.println("Durchschnittspreis: "+ Buch.berechneDurchschnittsPreis(buchliste)+" Euro");
 	
 /*
-	loescheBuch(buecherArray); //Aufruf der Methode loescheBuch 
+	loescheBuch(buecherArray); 						//Aufruf der Methode loescheBuch 
 */
 
-
-	//Ausgabe alle Inhalte die ungleich NULL sind
-	for(int i=0;i<buchliste.length;i++)
+/*
+	
+	for(int i=0;i<buchliste.length;i++)				//Ausgabe alle Inhalte die ungleich NULL sind
 	{
 		if (buchliste[i]!=null)
 		{
 			StdOut.println(buchliste[i].toString());
 		}
 	}
-
+*/
 	
 	
 				

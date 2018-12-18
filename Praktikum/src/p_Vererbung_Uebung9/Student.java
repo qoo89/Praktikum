@@ -30,7 +30,7 @@ public class Student extends Person
 	
 	public String toString()
 	{
-		return super.toString()+ " ("+ this.matrikelnummer+ this.creditpoints+ ")";	//nutz durch das Schlüsselwort "SUPER", die toString-Methode der Oberklasse
+		return super.toString()+ " ( Matrikelnummer: "+ this.matrikelnummer+" Creditpoints: "+ this.creditpoints+ ")";	//nutz durch das Schlüsselwort "SUPER", die toString-Methode der Oberklasse
 																			//mit erweiterung der neuen Instanzvariablen
 	}
 	

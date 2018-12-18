@@ -13,7 +13,7 @@ public class Buch {
 	
 	public Buch(String nameBuch, int artikelnummer, double preis, int bestand) //Konstruktor für Klasse Buch, übernimmt Instanzvariablen
 	{
-		// TODO Auto-generated constructor stub
+		
 		
 		this.nameBuch=nameBuch;
 		this.artikelnummer=artikelnummer;
@@ -31,12 +31,12 @@ public class Buch {
 		double summe=0;
 		for(int i=0; i<buecher.length; i++)
 		{
-			anzahl = anzahl + buecher[i].getbestand();
-			summe = summe +buecher[i].getbestand()*buecher[i].getpreis();
+			anzahl = anzahl + buecher[i].getbestand();						//berechnet die Anzahl der Bücher
+			summe = summe +buecher[i].getbestand()*buecher[i].getpreis();	//berechnet den Gesamtwert der Bücher
 			StdOut.println("Anzahl: "+anzahl);
 			StdOut.println("Summe: "+summe);
 		}
-		return summe/anzahl;
+		return summe/anzahl; 												//Rückgabe des Durchschnittpreises
 		
 	}
 	

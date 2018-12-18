@@ -22,7 +22,7 @@ public class Professor extends Person{
 	}
 	public String toString()
 	{
-	return super.toString()+ " ("+ this.lehrgebiet+ ")";
+	return super.toString()+ " (Lehrgebiet: "+ this.lehrgebiet+ ")";
 	}
 
 }

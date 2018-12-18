@@ -47,7 +47,7 @@ public class Person {
 	
 	public String toString()
 	{
-		return ("vorname: "+this.vorname + " nachName: " + this.nachName+ " Geburtstag: " + this.geburtsdatum);
+		return ("Vorname: "+this.vorname + " Nachname: " + this.nachName+ " Geburtstag: " + this.geburtsdatum);
 	}
 	
 

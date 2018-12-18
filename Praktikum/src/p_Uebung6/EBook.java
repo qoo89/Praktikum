@@ -31,8 +31,8 @@ public class EBook extends Buch 	//EBook ist eine Unterklasse von Buch, erkennba
 	//toString ausgabe
 	public String toString()
 	{
-		return super.toString()+ " ("+ this.dateiGroeße +" "+ this.format + ")";	//nutz durch das Schlüsselwort "SUPER", die toString-Methode der Oberklasse
-																			//mit erweiterung der neuen Instanzvariablen
+		return super.toString()+ " ( DateiGroeße: "+ this.dateiGroeße + " Format: "+ this.format + ")";	//nutz durch das Schlüsselwort "SUPER", die toString-Methode der Oberklasse
+																										//mit erweiterung der neuen Instanzvariablen
 	}
 	
 	public static Buch erfasseEbook()

@@ -29,6 +29,6 @@ public class Mitarbeiter extends Person{
 	}
 	public String toString()
 	{
-	return super.toString()+ " ("+ this.personalnummer+ this.gehalt+ ")";
+	return super.toString()+ " ( Personalnummer: "+ this.personalnummer+ " Gehalt: "+this.gehalt+ ")";
 	}
 }
