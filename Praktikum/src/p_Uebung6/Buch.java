@@ -1,5 +1,6 @@
 package p_Uebung6;
 
+import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
 
 public class Buch {
@@ -71,7 +72,23 @@ public class Buch {
 	@Override
 	public String toString()
 	{
-		return ("Buchname: "+this.nameBuch + " \nArtikelnummer: " + this.artikelnummer+ " \nPreis: " + this.preis+ " \nBestand: "+this.bestand);
+		return ("Buchname: "+this.nameBuch + " Artikelnummer: " + this.artikelnummer+ " Preis: " + this.preis+ " Bestand: "+this.bestand);
+	}
+	
+	public static Buch erfasseBuch()
+	{
+		StdOut.print("Buchname: ");
+		String nameBuch = StdIn.readString();
+		StdOut.print("Artikelnummer: ");
+		int artikelnummer=StdIn.readInt();
+		StdOut.print("Preis: ");
+		double preis = StdIn.readDouble();
+		StdOut.print("Bestand: ");
+		int bestand = StdIn.readInt();
+		
+		Buch array = new Buch(nameBuch, artikelnummer, preis,bestand); //neues Objekt Buch wird erstellt
+		return array; //Objekt wird zurück gegeben
+		
 	}
 	
 	
