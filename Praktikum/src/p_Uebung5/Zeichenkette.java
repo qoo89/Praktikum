@@ -9,20 +9,44 @@ public class Zeichenkette {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+/*		
 		//Aufgabe 1a
 		StdOut.print("Welches Zeichen moechten Sie ausgeben? ");
 		char zeichen = StdIn.readChar();
 		StdOut.print("Wie viele Zeichen moechten Sie ausgeben? ");
 		int anzahl = StdIn.readInt();
 		methoden.wiederholeZeichen(zeichen,anzahl);
-		
-		
+*/		
+/*		
 		//Aufgabe 1b Methodenaufruf mit Schleife für Quadrat
-		/*
-		StdOut.print("Geben Sie die Laenge des Quadrats ein:");
+
+		StdOut.print("Geben Sie die Laenge des Quadrats ein: ");
 		int anzahl = StdIn.readInt();
-		//Aufgabe 2b
+		char zeichen = '*';
+
+		for(int i=1; i<=anzahl;i++)
+		{
+			methoden.wiederholeZeichen(zeichen, anzahl);
+			StdOut.println("");
+		}
+*/
+
+/*		//Aufgabe 1b erzeugung Quadrat ohne Methoden
+		for(int i=1; i<=anzahl; i++)			//erzeugt die Zeilen
+		{
+			
+			for(int k=1; k<anzahl;k++)			//erzeugt die Spalten
+			{
+				StdOut.print(zeichen);
+				//StdOut.println("");
+			}
+			StdOut.println(zeichen);
+			
+		}
+/*
+		
+/*
+		//Aufgabe 1b und 2c
 		int min = 2;
 		int max = 10;
 		int anzahl = methoden.frageInt("Geben Sie die Laenge des Quadrats ein: ", min, max);
@@ -34,9 +58,10 @@ public class Zeichenkette {
 			methoden.wiederholeZeichen(zeichen,anzahl);
 			StdOut.println("");
 		}
+*/
 		
 		//Aufgabe 1c Methodenaufruf Pyramide
-		/*
+/*
 		StdOut.print("Geben Sie den Parameter fuer die Pyamide ein:");
 		int anzahl = StdIn.readInt();
 		//Aufgabe 2b
@@ -58,7 +83,7 @@ public class Zeichenkette {
 			stern++;
 			StdOut.println("");
 		}
-		*/
+*/
 	}
 
 }

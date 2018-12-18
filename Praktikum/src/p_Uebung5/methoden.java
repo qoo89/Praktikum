@@ -7,7 +7,18 @@ import edu.princeton.cs.introcs.StdOut;
 
 public class methoden
 {
-	public static int frageInt(String frage, int min, int max) //Aufgabe 2b
+
+	public static int frageInt(String frage)
+	{
+		StdOut.println(frage);		
+		int eingabe = StdIn.readInt();
+		
+		return eingabe;		
+	}
+	
+	
+	
+	public static int frageInt(String frage, int min, int max) //Aufgabe 2a und 2
 	{
 		StdOut.print(frage);
 		int x =0;
@@ -19,6 +30,19 @@ public class methoden
 		}while(x>max||x<min);
 		return x;
 	}
+	
+	public static int[] arrayFrageInt(String frage, int gr) //erstellt ein Array mit der eingegebenen Groeße und ließt Zahlen sein
+	{
+		StdOut.println(frage);
+		int [] a = new int[gr];
+		
+		for(int i=0; i<gr; i++){
+			StdOut.println((i+1) + ". Zahl eingeben: ");
+			a[i] = StdIn.readInt();
+		}		
+		return a;
+	}
+	
 	
 	public static void wiederholeZeichen(char zeichen, int anzahl)
 	{
@@ -41,7 +65,7 @@ public class methoden
 		        }
 		}
 		
-	//Aufgabe 3b
+		//Aufgabe 3b
 		public static int maxArray(int[] array) //gibt die größte Zahl zurück
 		{
 			int vergleich = 0;
@@ -68,6 +92,7 @@ public class methoden
 			return array2;
 		}
 		
+		//Aufgabe 2d
 		public static int [] frageArray(String frage, int gr) //ließt Anzahl an Zahlen in das Array ein 
 		{
 			StdOut.print(frage);

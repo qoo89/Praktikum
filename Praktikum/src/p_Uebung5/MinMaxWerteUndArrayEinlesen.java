@@ -1,19 +1,27 @@
 package p_Uebung5;
 
+import edu.princeton.cs.introcs.StdOut;
+
 public class MinMaxWerteUndArrayEinlesen {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//Aufgabe 2a
-				
+		
+		//Aufgabe 2a und 2b
+		
 				int min = 0;
 				int max = 100;
 				
 				int wert = methoden.frageInt("Geben Sie einen Wert ein: ",min,max);
-				
-				
-				//Aufgabe 2b
-				/*
+				StdOut.println("TestAusgabe: "+wert);
+
+		
+		//Aufgabe 2c in Klasse Zeichenkette
+		
+		
+		
+/*		
+				//Aufgabe 2d
+
 				int[] array;
 				int gr=5;
 				
@@ -21,9 +29,9 @@ public class MinMaxWerteUndArrayEinlesen {
 				
 				for(int i=0; i<array.length; i++)
 				{
-					StdOut.print(+array[i]+ " ");
+					StdOut.print(+array[i]+ " "); // Ausgabe des Arrays
 				}
-				*/
+*/
 	}
 	
 	
