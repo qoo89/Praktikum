@@ -9,7 +9,7 @@ public class aufgabe2 {
 		// TODO Auto-generated method stub
 
 //Aufgabe 2a
-/*
+
 		StdOut.println("Wie viele Potenzen moechten Sie ausgegeben bekommen?");
 		StdOut.print("Eingabe: ");
 		int potenz = StdIn.readInt();
@@ -34,8 +34,8 @@ public class aufgabe2 {
 
 				StdOut.println(" = " + sum);
 			}
-		}
-*/
+		}	
+
 		
 //Aufgabe 2b
 /*

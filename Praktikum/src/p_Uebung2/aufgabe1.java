@@ -7,6 +7,7 @@ public class aufgabe1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+/*
 //Aufgabe 1
 	
 				StdOut.println("Anzahl Sternchen?");
@@ -18,7 +19,7 @@ public class aufgabe1 {
 				StdOut.print("*");
 				}
 
-		
+*/		
 //Aufgabe 1b
 /*
 		StdOut.println("Anzahl Sternchen?");
@@ -38,26 +39,26 @@ public class aufgabe1 {
 		}
 */
 //Aufgabe 1c
-/*
+
 		StdOut.println("Anzahl?");
 		StdOut.println("Eingabe: ");
 		int zeilen = StdIn.readInt();     //Anzahl Zeilen
 		int h=zeilen;					  //Hilfvariable
 		
-		for(int count=0; count<zeilen; count++)
+		for(int count=0; count<zeilen; count++)	//anzahl Zeilen
 		{
 		
-			h--;							//Hilfevariable um einen Verringern
-			for(int i = h; i < zeilen ; i++) //Quasi Entlosschleife da sich i und h immer weiter voneinander entfernen
+			h--;								//Hilfevariable um einen Verringern
+			for(int i = h; i < zeilen ; i++) 	//Quasi Entlosschleife da sich i und h immer weiter voneinander entfernen
 			{
 				StdOut.print("*");
 			}
 			
-			StdOut.println("");
+			StdOut.println("");					//Zeilenumbruch
 			
 		}
-*/
-//Aufagbe 1d
+
+//Aufagbe 1d - Kästenchen mitte Frei
 /*
 		StdOut.println("Anzahl Sternchen?");
 		StdOut.println("Eingabe: ");
@@ -66,7 +67,7 @@ public class aufgabe1 {
 		for(int i=1; i<=eingabe; i++)
 		{
 		
-			if(i==1 || i==eingabe)
+			if(i==1 || i==eingabe)					//
 			{
 				for(int i2 = 1; i2<eingabe; i2++) 
 				{
@@ -86,7 +87,7 @@ public class aufgabe1 {
 			}
 			
 		
-		StdOut.println("*");
+		StdOut.println("#");
 		
 		}
 */

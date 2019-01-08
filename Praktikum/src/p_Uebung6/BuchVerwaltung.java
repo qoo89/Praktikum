@@ -9,9 +9,7 @@ public class BuchVerwaltung {
 	
 	public static void main(String[] args) 
 	{
-	
-	
-		
+			
 	StdOut.print("Wie viele Buecher moechten Sie einlesen? ");
 	int anzahl = StdIn.readInt();
 	
@@ -31,30 +29,36 @@ public class BuchVerwaltung {
 		}
 	
 	}	
-	
+
+/*	
 	//Ausgabe aller Buecher
 	for(int i=0; i<buchliste.length;i++)
 	{
 		StdOut.println(buchliste[i]);
 	}
-
-	//Berechnung und Ausgabe Buecher
+*/
+	
+	//Berechnung Durchschnittspreis und Ausgabe Buecher
 	StdOut.println("Durchschnittspreis: "+ Buch.berechneDurchschnittsPreis(buchliste)+" Euro");
 	
 /*
-	loescheBuch(buecherArray); 						//Aufruf der Methode loescheBuch 
+ 	//Aufgabe 1d
+	loescheBuch(buchliste); 						//Aufruf der Methode loescheBuch 
 */
 
-/*
 	
 	for(int i=0;i<buchliste.length;i++)				//Ausgabe alle Inhalte die ungleich NULL sind
 	{
 		if (buchliste[i]!=null)
 		{
+			int counter=1;
+			System.out.println("");
+			System.out.println("Ausgabe "+counter+". Buch:");
 			StdOut.println(buchliste[i].toString());
+			counter++;
 		}
 	}
-*/
+
 	
 	
 				
@@ -62,7 +66,7 @@ public class BuchVerwaltung {
 
 	
 /*
-	public static void loescheBuch(Buch[] buecherArray) //Aufgabe 1d, löscht 2 Bücher an stelle 2 & 3
+	public static void loescheBuch(Buch[] buchliste) //Aufgabe 1d, löscht 2 Bücher an stelle 2 & 3
 	{
 		//Elemente auf NULL setzen
 		for(int i=0; i<buchliste.length;i++)

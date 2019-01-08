@@ -34,7 +34,8 @@ public class Buch {
 			anzahl = anzahl + buecher[i].getbestand();						//berechnet die Anzahl der Bücher
 			summe = summe +buecher[i].getbestand()*buecher[i].getpreis();	//berechnet den Gesamtwert der Bücher
 			StdOut.println("Anzahl: "+anzahl);
-			StdOut.println("Summe: "+summe);
+			StdOut.println("Summe: "+summe+" Euro");
+			StdOut.println("");
 		}
 		return summe/anzahl; 												//Rückgabe des Durchschnittpreises
 		
