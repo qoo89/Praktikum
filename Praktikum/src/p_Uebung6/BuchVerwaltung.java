@@ -20,7 +20,7 @@ public class BuchVerwaltung {
 	{
 		StdOut.println("Buch(irgendeine Zahl) und EBook(-1)");	
 		int eingabe = StdIn.readInt();
-		if (eingabe == -1)						//prüft ob ein EBook(-1) eingelesen werden soll oder ein Buch(beliebige Zahl)
+		if (eingabe == -1)						//prüft ob ein EBook(-1) eingelesen werden soll oder ein Buch(beliebige Zahl)test
 		{
 			buchliste[i] = EBook.erfasseEbook();
 		}else
